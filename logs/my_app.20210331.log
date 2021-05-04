@@ -1,0 +1,73 @@
+2021-03-31 13:09:17,674 — ERROR — Uncaught exception
+Traceback (most recent call last):
+  File "c:\Users\user\Desktop\scripts\kolesa\kolesaservices\server.py", line 132, in <module>
+    class KolesaServiceServicer(grpc_pb2_grpc.KolesaServiceServicer):
+NameError: name 'grpc_pb2_grpc' is not defined
+2021-03-31 13:09:35,055 — INFO — Server started at  Listening port 8080
+2021-03-31 13:20:47,140 — INFO — Server started at  Listening port 8080
+2021-03-31 13:21:19,879 — INFO — Reply response for 77757003333
+2021-03-31 13:21:19,879 — INFO — 77757003333 kolesa links 
+2021-03-31 13:21:20,893 — INFO — returned 2 links
+2021-03-31 13:21:50,968 — INFO — Reply response for 77757003333
+2021-03-31 13:21:50,969 — INFO — 77757003333 kolesa links 
+2021-03-31 13:21:51,876 — INFO — returned 2 links
+2021-03-31 13:22:20,271 — INFO — Reply response for 77778566400
+2021-03-31 13:22:20,271 — INFO — 77778566400 krisha links 
+2021-03-31 13:22:21,461 — INFO — returned 0 links
+2021-03-31 13:22:31,978 — INFO — Reply response for 77778566400
+2021-03-31 13:22:31,978 — INFO — 77778566400 krisha links 
+2021-03-31 13:22:33,169 — INFO — returned 0 links
+2021-03-31 13:23:40,232 — INFO — Reply response for +7 (707) 270-76-58
+2021-03-31 13:23:40,232 — INFO — +7 (707) 270-76-58 market links 
+2021-03-31 13:23:41,694 — INFO — returned 0 links
+2021-03-31 13:23:53,552 — INFO — Reply response for 77072707658
+2021-03-31 13:23:53,553 — INFO — 77072707658 market links 
+2021-03-31 13:23:54,978 — INFO — returned 0 links
+2021-03-31 13:24:32,650 — INFO — Reply response for 77072707658
+2021-03-31 13:24:32,650 — INFO — 77072707658 market links 
+2021-03-31 13:24:34,093 — INFO — returned 0 links
+2021-03-31 13:25:11,565 — INFO — Server started at  Listening port 8080
+2021-03-31 13:25:15,151 — INFO — Reply response for 77072707658
+2021-03-31 13:25:15,152 — INFO — 77072707658 market links 
+2021-03-31 13:25:16,665 — INFO — returned 0 links
+2021-03-31 13:26:01,628 — INFO — Server started at  Listening port 8080
+2021-03-31 13:26:04,551 — INFO — Reply response for 77072707658
+2021-03-31 13:26:04,552 — INFO — 77072707658 market links 
+2021-03-31 13:26:06,442 — INFO — returned 0 links
+2021-03-31 13:26:50,289 — INFO — Server started at  Listening port 8080
+2021-03-31 13:26:52,468 — INFO — Reply response for 77778566400
+2021-03-31 13:26:52,469 — INFO — 77778566400 krisha links 
+2021-03-31 13:26:55,028 — INFO — returned 11 links
+2021-03-31 13:27:24,735 — INFO — Server started at  Listening port 8080
+2021-03-31 13:27:27,554 — INFO — Reply response for 77072707658
+2021-03-31 13:27:27,554 — INFO — 77072707658 market links 
+2021-03-31 13:27:29,044 — INFO — returned 0 links
+2021-03-31 13:28:36,134 — INFO — Server started at  Listening port 8080
+2021-03-31 13:28:38,535 — INFO — Reply response for 77072707658
+2021-03-31 13:28:38,535 — INFO — 77072707658 market links 
+2021-03-31 13:28:40,193 — INFO — returned 6 links
+2021-03-31 13:30:18,955 — INFO — Server started at  Listening port 8080
+2021-03-31 13:30:20,687 — INFO — Reply response for 77072707658
+2021-03-31 13:30:20,688 — INFO — 77072707658 market links 
+2021-03-31 13:30:40,991 — INFO — Server started at  Listening port 8080
+2021-03-31 13:30:42,775 — INFO — Reply response for 77072707658
+2021-03-31 13:30:42,776 — INFO — 77072707658 market links 
+2021-03-31 13:30:44,239 — INFO — returned 6 links
+2021-03-31 13:31:05,805 — INFO — Server started at  Listening port 8080
+2021-03-31 13:31:07,652 — INFO — Reply response for 77072707658
+2021-03-31 13:31:07,653 — INFO — 77072707658 market links 
+2021-03-31 13:31:09,108 — INFO — returned 6 links
+2021-03-31 13:31:59,656 — INFO — Server started at  Listening port 8080
+2021-03-31 13:32:01,241 — INFO — Reply response for 77072707658
+2021-03-31 13:32:01,241 — INFO — 77072707658 market links 
+2021-03-31 13:32:02,847 — INFO — returned 6 links
+2021-03-31 13:32:43,205 — INFO — Server started at  Listening port 8080
+2021-03-31 13:32:45,738 — INFO — Reply response for 77757003333
+2021-03-31 13:32:45,739 — INFO — 77757003333 kolesa links 
+2021-03-31 13:32:46,740 — INFO — returned 2 links
+2021-03-31 13:32:48,951 — INFO — Reply response for 77778566400
+2021-03-31 13:32:48,951 — INFO — 77778566400 krisha links 
+2021-03-31 13:32:50,135 — INFO — returned 11 links
+2021-03-31 13:32:51,646 — INFO — Reply response for 77072707658
+2021-03-31 13:32:51,647 — INFO — 77072707658 market links 
+2021-03-31 13:32:53,156 — INFO — returned 6 links

@@ -1,0 +1,24 @@
+syntax = "proto3";
+option csharp_namespace = "KolesaService";
+
+service KolesaScraper {
+    rpc LoadKolesaLinks (PhoneRequest) returns (LinksReply);
+    rpc LoadKrishaLinks (PhoneRequest) returns (LinksReply);
+    rpc LoadMarketLinks (PhoneRequest) returns (LinksReply);
+    rpc LoadVirusLinks (PhoneRequest) returns (LinksReply);
+}
+
+
+message PhoneRequest {
+    string phone = 1;
+}
+
+
+message Link {
+    string label = 1;
+    string url = 2;
+}
+
+message LinksReply {
+    repeated Link links = 1;
+}

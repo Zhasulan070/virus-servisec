@@ -1,0 +1,44 @@
+variables: 
+  IMAGE_NAME: kolesa
+  SERVICE_NAME: kolesa
+  PORT: 24224
+  
+stages:
+  - build
+  - deploy
+
+before_script:
+  - python3 --version
+  - pip3 -V
+  - sudo pip3 install pipenv
+  - docker --version
+
+build job:
+  tags:
+    - office
+    - scraper
+    - service
+    - production
+  script:
+    - sudo docker build -t $IMAGE_NAME -f Dockerfile .
+    - sudo docker image prune -f
+  stage: build
+  only:
+    refs:
+      - master
+
+deploy job:
+  tags:
+    - office
+    - scraper
+    - service
+    - production
+  script:
+    - sudo docker stop $SERVICE_NAME || true
+    - sudo docker rm $SERVICE_NAME || true
+    - sudo docker create --mount type=bind,src=/var/files,target=/var/files -p $PORT:80 --name $SERVICE_NAME --restart always $IMAGE_NAME
+    - sudo docker start $SERVICE_NAME
+  stage: deploy
+  only:
+    refs:
+      - master

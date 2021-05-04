@@ -1,0 +1,17 @@
+2021-04-01 09:37:03,899 — ERROR — Uncaught exception
+Traceback (most recent call last):
+  File "c:\Users\user\Desktop\scripts\kolesa\kolesaservices\server.py", line 185, in <module>
+    serve()
+  File "c:\Users\user\Desktop\scripts\kolesa\kolesaservices\server.py", line 175, in serve
+    kolesa_pb2_grpc.add_KolesaServiceServicer_to_server(KolesaServiceServicer(),server)
+AttributeError: module 'kolesa_pb2_grpc' has no attribute 'add_KolesaServiceServicer_to_server'
+2021-04-01 09:37:30,536 — INFO — Server started at  Listening port 8080
+2021-04-01 09:37:50,368 — INFO — Reply response for 77757003333
+2021-04-01 09:37:50,368 — INFO — 77757003333 kolesa links 
+2021-04-01 09:37:51,394 — INFO — returned 2 links
+2021-04-01 09:37:58,650 — INFO — Reply response for 77778566400
+2021-04-01 09:37:58,650 — INFO — 77778566400 krisha links 
+2021-04-01 09:37:59,925 — INFO — returned 11 links
+2021-04-01 09:38:04,659 — INFO — Reply response for 77072707658
+2021-04-01 09:38:04,659 — INFO — 77072707658 market links 
+2021-04-01 09:38:06,276 — INFO — returned 6 links
